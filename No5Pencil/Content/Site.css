@@ -34,3 +34,25 @@ textarea {
         padding: 10px 15px;
     }
 }
+
+.wideimagecontainer {
+    width:100%;
+    position:relative;
+}
+
+.wideimagetext {
+    position:absolute;
+    bottom:350px;
+    right:250px;
+    color:red;
+    font-size:24px;
+}
+
+.wideimage {
+    border-style:solid;
+    border-color:blue;
+    border-width:2px;
+    width:inherit;
+    height:auto;
+    margin:0;
+}

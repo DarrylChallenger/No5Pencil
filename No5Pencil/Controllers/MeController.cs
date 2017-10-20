@@ -14,7 +14,7 @@ using No5Pencil.Models;
 
 namespace No5Pencil.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class MeController : ApiController
     {
         private ApplicationUserManager _userManager;

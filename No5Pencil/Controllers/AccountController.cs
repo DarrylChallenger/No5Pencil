@@ -12,7 +12,7 @@ using No5Pencil.Models;
 
 namespace No5Pencil.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
