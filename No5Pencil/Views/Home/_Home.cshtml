@@ -1,4 +1,15 @@
 ﻿<!-- ko with: home -->
+@{ 
+    Page.Title = "Hello";
+    Page.Keywords = "1,2,3";
+    Page.Description = "test descr";
+    System.Web.UI.HtmlControls.HtmlMeta meta = new System.Web.UI.HtmlControls.HtmlMeta();
+    meta.Attributes.Add("name", "keywords");
+    meta.Attributes.Add("content", "key1, key2");
+    Page.Header = new System.Web.UI.HtmlControls.HtmlHead();
+    Page.Header.Controls.Add(meta);
+
+}
 <div class="MainPage">
     <div class="wideimagecontainer">
         <img class="img-responsive wideimage" src="~/Images/pencil37.png" />
